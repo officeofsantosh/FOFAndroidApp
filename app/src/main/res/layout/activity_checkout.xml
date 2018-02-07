@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.andproj.skm.fondoffood.CheckoutActivity">
+
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Please Confirm Your Order.."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </ListView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+        android:id="@+id/total_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9c9a9a">
+
+        <TextView
+            android:id="@+id/total_quantity_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Quantity: "
+            android:layout_gravity="right"/>
+
+        <EditText
+            android:id="@+id/total_quantity"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:layout_gravity="right"/>
+
+        <TextView
+            android:id="@+id/total_price_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price: "
+            android:layout_gravity="right"/>
+
+        <EditText
+            android:id="@+id/total_price"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0.0"
+            android:textAlignment="center"
+            android:layout_gravity="right"/>
+    </TableRow>
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#9c9a9a">
+
+
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

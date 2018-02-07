@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">FondOfFood</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="select_shop">Select one service to start..</string>
+
+    <!--start-tab1 related strings-->
+    <string-array name="tab1_item_names">
+        <item>Vegetable</item>
+        <item>Eggy</item>
+        <item>Peas and Potato</item>
+        <item>Paneer Toasty</item>
+        <item>Mushroom</item>
+        <item>Tomato cucumber</item>
+        <item>Aloo Toast</item>
+        <item>Chocolate</item>
+        <item>Chana masala</item>
+        <item>Corn</item>
+        <item>Corn cheese</item>
+    </string-array>
+
+    <string-array name="tab1_item_prices">
+        <item>35</item>
+        <item>25</item>
+        <item>40</item>
+        <item>45</item>
+        <item>45</item>
+        <item>20</item>
+        <item>20</item>
+        <item>35</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+    </string-array>
+
+    <string-array name="tab1_item_descriptions">
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+    </string-array>
+
+    <string-array name="tab1_item_images">
+        <item>@drawable/vegetable</item>
+        <item>@drawable/egg</item>
+        <item>@drawable/peas</item>
+        <item>@drawable/paneer</item>
+        <item>@drawable/mushroom</item>
+        <item>@drawable/tomatocucumber</item>
+        <item>@drawable/allotoast</item>
+        <item>@drawable/chocolate</item>
+        <item>@drawable/chanamasala</item>
+        <item>@drawable/corn</item>
+        <item>@drawable/corncheese</item>
+    </string-array>
+    <!--end-tab1 related strings-->
+
+    <!--start-tab2 related strings-->
+    <string-array name="tab2_item_names">
+        <item>Grape</item>
+        <item>Apple</item>
+        <item>Orange</item>
+        <item>Mango</item>
+        <item>Watermelon</item>
+        <item>Banana milkshake</item>
+        <item>Strawberry</item>
+        <item>Pineapple</item>
+        <item>Pomegrnate</item>
+        <item>Lemon</item>
+    </string-array>
+
+    <string-array name="tab2_item_prices">
+        <item>30</item>
+        <item>30</item>
+        <item>35</item>
+        <item>30</item>
+        <item>20</item>
+        <item>25</item>
+        <item>40</item>
+        <item>30</item>
+        <item>30</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="tab2_item_descriptions">
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+    </string-array>
+
+    <string-array name="tab2_item_images">
+        <item>@drawable/grape</item>
+        <item>@drawable/apple</item>
+        <item>@drawable/orange</item>
+        <item>@drawable/mango</item>
+        <item>@drawable/watermelon</item>
+        <item>@drawable/banana</item>
+        <item>@drawable/strawberry</item>
+        <item>@drawable/pineapple</item>
+        <item>@drawable/pomegrnate</item>
+        <item>@drawable/lemon</item>
+    </string-array>
+    <!--end-tab2 related strings-->
+
+    <!--start-tab3 related strings-->
+    <string-array name="tab3_item_names">
+        <item>Fruit Salad</item>
+        <item>Veg Maggi</item>
+        <item>Egg Maggi</item>
+        <item>Egg Masala</item>
+        <item>Bread Omelet</item>
+        <item>Gobi Manchurian</item>
+    </string-array>
+
+    <string-array name="tab3_item_prices">
+        <item>45</item>
+        <item>28</item>
+        <item>33</item>
+        <item>25</item>
+        <item>25</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="tab3_item_descriptions">
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+
+    </string-array>
+
+    <string-array name="tab3_item_images">
+        <item>@drawable/fruitsalad</item>
+        <item>@drawable/vegmaggi</item>
+        <item>@drawable/eggmaggi</item>
+        <item>@drawable/eggmasala</item>
+        <item>@drawable/breadomelet</item>
+        <item>@drawable/gobimanchurian</item>
+    </string-array>
+
+    <!--end-tab3 related strings-->
+
+    <string-array name="quantity_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
